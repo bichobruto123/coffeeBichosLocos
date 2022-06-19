@@ -36,3 +36,13 @@ footer .rodape ul {
     margin-bottom: 100px;
     padding-left: 10px;
 }
+
+ul.nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li {
+    list-style: none;
+    display: inline;
+}
