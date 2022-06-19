@@ -5,9 +5,40 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+header img {
+    width: 300px;
+}
+
+header .redesocialenav {
+    display: grid;
+    justify-content: right;
+    text-align: right;
+}
+
+ul.nav {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav li {
+    list-style: none;
+    display: inline;
+}
+
+main img {
+    width: 100%;
+}
+
 footer {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     text-align: center;
 }
@@ -35,14 +66,4 @@ footer .rodape ul li:hover {
 footer .rodape ul {
     margin-bottom: 100px;
     padding-left: 10px;
-}
-
-ul.nav {
-    margin: 0;
-    padding: 0;
-}
-
-ul.nav li {
-    list-style: none;
-    display: inline;
 }
