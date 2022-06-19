@@ -1,6 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+footer .imgRodape img {
+    height: 400px;
+    margin: 20px 10px;
+}
+
+footer .imgRodape {
+    height: 50vh;
+}
+
+footer .rodape ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+
+footer .rodape ul li:hover {
+    border-bottom: 2px solid green;
+}
+
+footer .rodape ul {
+    margin-bottom: 100px;
+    padding-left: 10px;
 }
